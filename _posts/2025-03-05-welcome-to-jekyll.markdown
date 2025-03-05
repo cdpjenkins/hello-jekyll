@@ -11,5 +11,3 @@ figure out Jekyll, and then probably move cdpjenkins.com onto it, given that Cry
 supported.
 
 Maybe I'll even start "blogging" again. Who knows.
-
-Jekyll also offers powerful support for code snippets:
