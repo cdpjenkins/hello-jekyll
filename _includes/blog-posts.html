@@ -10,7 +10,7 @@
                     <ul>
                     {% for post in site.posts %}
                         <li>
-                            <a href="{{ site.baseurl }}{{ post.url }}">
+                            <a href="{{ post.url | relative_url }}">
                                 {{ post.name }}
                             </a>
                         </li>
