@@ -40,6 +40,15 @@ a:focus,
 a:active {
   text-decoration: none !important;
 }
+
+/*
+ * Chris added this 
+ */
+header .navbar-nav .active {
+  background-color: #eaeaea;
+}  
+
+
 .section-title {
   margin-bottom: 70px;
 }
