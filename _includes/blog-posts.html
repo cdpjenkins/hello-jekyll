@@ -1,3 +1,4 @@
+
     <!-- Blog HTML -->
     <section id="blog">
         <div class="container"> 
@@ -5,6 +6,17 @@
                 <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1"> 
 
                     <!-- Blog Post -->
+
+                    <ul>
+                    {% for post in site.posts %}
+                        <li>
+                            <a href="{{ site.baseurl }}{{ post.url }}">
+                                {{ post.name }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+
                     <h2><a href="post.html">Space is big. You just won't believe how vastly, hugely, mind-bogglingly big it is.</a></h2>
 
                     <p class="lead">by <a href="#">Jana Bergant</a></p>
