@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "Another post!"
-date:   2025-03-10 00:10:00 +0000
-category: blog
+title:  "Hello Jekyll!"
+date:   2025-03-05 21:20:19 +0000
+category: stuff
 author: Chris Jenkins
 ---
-This is another post.
+Hello Jekyll!
 
-Hopefully it will show up ok and I'll feel good about that etc.
+I'm not sure how I feel about playing with Jekyll for the first time in 2025 but hey ho, that's what I'm doing. Mission:
+figure out Jekyll, and then probably move cdpjenkins.com onto it, given that Cryogen appears not to be much used or
+supported.
+
+Maybe I'll even start "blogging" again. Who knows.
