@@ -35,7 +35,6 @@ layout: default
 
                    <!-- <img class="img-responsive" src="http://placehold.it/900x300" alt="Time is an illusion. Lunchtime doubly so."> -->
                 
-                
 
                 <hr>
 
@@ -48,7 +47,7 @@ layout: default
                 
                 {% if page.previous %}
                   <span class="previous-link">
-                    <a rel="prev" href="{{ 'page.previous.url' | relative_url }}">Previous article</a>
+                    <a rel="prev" href="{{ page.previous.url | relative_url }}">Previous article</a>
                   </span>
                 {% endif %}
                 
